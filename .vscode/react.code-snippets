@@ -1,0 +1,24 @@
+{
+    "reactComponent": {
+        "prefix": "tscomp",
+        "body": [
+          "import React from 'react';",
+          "",
+          "export interface I${1:ComponentName}Props {}",
+          "",
+          "const ${1:ComponentName}: React.FC<I${1:ComponentName}Props> = () => {",
+          "  return (",
+          "    <div>",
+          "      <h1>",
+          "        ${1:ComponentName}",
+          "      </h1>",
+          "    </div>",
+          "  );",
+          "};",
+          "",
+          "export default ${1:ComponentName};",
+          ""
+        ],
+        "description": "To create a new component"
+      },
+}
